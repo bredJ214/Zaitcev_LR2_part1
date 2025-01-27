@@ -12,7 +12,7 @@ bool UserInput(const std::string& input) {
     // Попытаться преобразовать введенного значения в тип int
     try {
         // Преобразование введенного значения в тип int
-        int number = std::stoi(input);
+        std::stoi(input);
         // Если преобразование успешно, возвращаем true
         return true;
     } catch (...) {
