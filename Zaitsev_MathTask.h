@@ -1,5 +1,5 @@
-#ifndef SURNAME_MATHTASK_H
-#define SURNAME_MATHTASK_H
+#ifndef ZAITCEV_MATHTASK_H
+#define ZAITCEV_MATHTASK_H
 
 #include <cstring>
 #include <string>
@@ -26,4 +26,4 @@ int CalcRectangleArea(int NumberA, int NumberB) {
     return NumberA * NumberB;
 }
 
-#endif // SURNAME_MATHTASK_H
+#endif // ZAITCEV_MATHTASK_H
